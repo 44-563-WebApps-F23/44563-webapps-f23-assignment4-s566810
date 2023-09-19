@@ -1,0 +1,26 @@
+.Speech {
+
+    font-family:'Times New Roman', Times, serif;
+    font-size: 12px;
+    color: black;
+
+  }
+
+  .direction {
+
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+
+.name {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 13px;   
+}
+   
+
+.direction:hover{
+
+    background-color: lightpink;
+     color: black;
+
+}
