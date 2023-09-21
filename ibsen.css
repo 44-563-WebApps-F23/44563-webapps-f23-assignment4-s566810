@@ -16,8 +16,8 @@
   border: 1px dotted black;
 }
 .name:hover {
-    color: rgb(21, 188, 49);
-  }
+  color: rgb(21, 188, 49);
+}
 
 .direction:hover {
   background-color: rgb(235, 175, 138);
@@ -54,50 +54,53 @@ th {
   background-color: darkslategray;
 }
 td {
-    border: 1px solid black;
-    border-collapse: collapse;
-    padding: 5px;
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 5px;
 }
 tr:nth-child(even) {
-    background-color: #b4d3f3;
+  background-color: #b4d3f3;
 }
 tr:nth-child(odd) {
-    background-color: #f9c6f9;
+  background-color: #f9c6f9;
 }
 th {
-    background-image: linear-gradient(
-      45deg,
-      #f0d19c 16.67%,
-      #a3e65f 16.67%,
-      #f7cfdb 33.33%,
-      #fff 33.33%,
-      #fff 50%,
-      #fabea6 50%,
-      #f1c796 66.67%,
-      #f7cfdb 66.67%,
-      #f7cfdb 83.33%,
-      #a4eb91 83.33%,
-      #fff 100%
-    );
+  background-image: linear-gradient(
+    45deg,
+    #f0d19c 16.67%,
+    #a3e65f 16.67%,
+    #f7cfdb 33.33%,
+    #fff 33.33%,
+    #fff 50%,
+    #fabea6 50%,
+    #f1c796 66.67%,
+    #f7cfdb 66.67%,
+    #f7cfdb 83.33%,
+    #a4eb91 83.33%,
+    #fff 100%
+  );
 }
-.HELMER{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: blueviolet;
+.HELMER {
+  text-shadow: rgb(88, 155, 221) 1px 0 10px;
+  filter: blur(0.5px);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: blueviolet;
 }
-.NORA{
-    text-shadow: rgb(88, 155, 221) 1px 0 10px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: crimson;
-    filter: blur(0.5px);
+.NORA {
+  text-shadow: rgb(88, 155, 221) 1px 0 10px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: crimson;
+  filter: blur(0.5px);
 }
-.image{
-    margin: 10px;
-    width: 30%;
-    height: 30%;
+.image {
+  margin: 10px;
+  width: 30%;
+  height: 30%;
 }
-ul,li{
-    list-style-type: none;
-    background-color: darkcyan;
-    float: left;
-    margin: 5px 10px 10px 10px;
+ul,
+li {
+  list-style-type: none;
+  background-color: darkcyan;
+  float: left;
+  margin: 5px 10px 10px 10px;
 }
